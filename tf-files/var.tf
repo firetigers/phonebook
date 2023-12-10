@@ -3,7 +3,7 @@ variable "git-name" {
 }
 
 variable "git-token" {
-  default = "XXXXXXXXX"
+  default = "XXXXXXXXX" # Buraya GitHub tokenınızı yazınız.
 }
 
 variable "key-name" {
