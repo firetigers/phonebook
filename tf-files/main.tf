@@ -107,7 +107,7 @@ resource "aws_db_instance" "db-server" {
   engine = "mysql"
   engine_version = "8.0.28"
   username = "admin"
-  password = "Oliver_1"
+  password = "XXXXXXXX" # Buraya kendi şifrenizi yazınız.
   monitoring_interval = 0
   multi_az = false
   port = 3306
