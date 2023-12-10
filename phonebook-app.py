@@ -16,7 +16,7 @@ db_endpoint = open("/home/ec2-user/phonebook/dbserver.endpoint", 'r', encoding='
 # Once we are done with the database, we are going to create database.
 # we need to configure our database. I've explained this part before. Lets have a look at these configuration. 
 app.config['MYSQL_DATABASE_HOST'] = db_endpoint.readline().strip()
-app.config['MYSQL_DATABASE_USER'] = 'admin' # Buraya kendi kulanıcı adınızı yazınız.
+app.config['MYSQL_DATABASE_USER'] = 'XXXXX' # Buraya kendi kulanıcı adınızı yazınız.
 app.config['MYSQL_DATABASE_PASSWORD'] = 'Oliver_1' 
 app.config['MYSQL_DATABASE_DB'] = 'phonebook'
 app.config['MYSQL_DATABASE_PORT'] = 3306
