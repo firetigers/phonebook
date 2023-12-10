@@ -106,7 +106,7 @@ resource "aws_db_instance" "db-server" {
   db_name = "phonebook"
   engine = "mysql"
   engine_version = "8.0.28"
-  username = "admin"
+  username = "XXXXXXXX"
   password = "XXXXXXXX" # Buraya kendi şifrenizi yazınız.
   monitoring_interval = 0
   multi_az = false
